@@ -1,4 +1,5 @@
 {
+  "homepage": "https://akbatra567.github.io/carbonAwareMaps/",
   "name": "carbonawareroutes",
   "private": true,
   "version": "0.0.0",
@@ -6,6 +7,9 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
+    "vite:start": "vite",
+    "vite:build": "vite build",
+    "preview:80": "vite preview --port 8080",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "test": "echo 'test'",
     "preview": "vite preview"
